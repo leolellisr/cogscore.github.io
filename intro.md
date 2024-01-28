@@ -66,6 +66,6 @@ As the main contributions of this work, we expect:
 
 # PhD Qualification
 
-* [PhD Qualification Presentation (PT-BR)](quali_video.md)
+* [PhD Qualification Presentation (PT-BR)](https://drive.google.com/file/d/10oMXmbGDphLCk4LO8JjkqT2qnDOpHyaU/view?usp=sharing)
 
 
