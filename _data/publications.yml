@@ -1,0 +1,49 @@
+- date: 2023-09-18
+  type: journal
+  status: published
+  authors: Letícia Berto, Leonardo Rossi, Eric Rohmer, Paula Costa, Ricardo Gudwin, Alexandre Simões and Esther Colombini
+  title: "Piagetian Experiments to DevRobotics"
+  journal: Cognitive Systems Research Journal
+  doi: 10.1016/j.cogsys.2023.101170
+
+
+
+- date: 2023-07-12
+  type: journal
+  status: in submission
+  authors: Leonardo Rossi, Letícia Berto, Eric Rohmer, Paula Costa, Ricardo Gudwin, Alexandre Simões and Esther Colombini 
+  title: "Incremental procedural and sensorimotor learning in cognitive humanoid robots"
+  journal:  IEEE Transactions on Cognitive and Developmental Systems
+  doi: 10.48550/arXiv.2305.00597
+
+
+
+- date: 2022-10-18
+  type: conference
+  status: published
+  authors: Leonardo Rossi, Letícia Berto, Eric Rohmer, Paula Costa, Ricardo Gudwin, Alexandre Simões and Esther Colombini  
+  title: "Aprendizado procedimental e sensório-motor em robôs cognitivos"
+  journal: Sociedade Brasileira de Computação 
+  doi: 10.5753/wtdr_ctdr.2022.227371
+
+
+
+- date: 2019-11-01
+  type: masters dissertation
+  status: published
+  authors: Leonardo Rossi
+  title: "Aprendizado sensório-motor em robôs cognitivos utilizando modelo CST-CONAIM"
+  journal:  UNESP
+  url: https://repositorio.unesp.br/handle/11449/214316
+
+
+
+- date: 2020-10-30
+  type: conference
+  status: published
+  authors: Letícia Berto, Leonardo Rossi, Eric Rohmer, Paula Costa, Ricardo Gudwin, Alexandre Simões and Esther Colombini 
+  title: "Learning over the Attentional Space with Mobile Robots"
+  journal: 2020 Joint IEEE 10th International Conference on Development and Learning and Epigenetic Robotics (ICDL-EpiRob) 
+  doi: 10.1109/ICDL-EpiRob48136.2020.9278119
+
+
