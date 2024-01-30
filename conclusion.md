@@ -103,12 +103,12 @@ Comparing the constructive agent to the DQN-RBF agent and the Tabular agent in t
 This implementation introduces a computational process aimed at modeling the development of secondary circular reactions, where the agent acquires intentionality to perform actions and deliberately selects them to achieve specific goals. A top-down attention mechanism is employed in this phase to facilitate intentional behavior. The agent's intentionality is simulated by establishing explicit objectives, which redirect the robot's focus externally and enable purposeful actions.
 
 <figure>
-  <img src="{{'assets//figures/results/3rd/Number of Actions Performed.pdf" style="width:45%">
+  <img src="{{'assets//figures/results/3rd/Number of Actions Performed.png' | relative_url }}" alt="Marta's actions" style="width:80%">
   <figcaption>(a) 3rd substage - Actions performed with each experiment;</figcaption>
 </figure>
 
 <figure>
-  <img src="{{'assets//figures/results/3rd/Rewards" style="width:45%">
+  <img src="{{'assets//figures/results/3rd/Rewards.png' | relative_url }}" alt="Marta's rewards" style="width:80%">
   <figcaption>(b) 3rd substage - Rewards adquired with each experiment.</figcaption>
 </figure>
 
