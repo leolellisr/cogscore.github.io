@@ -23,13 +23,8 @@ Other robots, such as the Pioneer P3DX, which will not have cognitive algorithms
 
  The Marta robot is equipped with an RGB-D camera and has a virtual actuator, named as "fovea". The environment is distributed with colored blocks and a Pioneer P3DX robot acts as a distractor. 
 
-<figure>
-  <img src="/data/figures/Marta/Marta.pdf" alt="(a)" style="width:30%">
-  <figcaption></figcaption>
-</figure>
-
 <iframe
-    src="data/figures/Schemes/Marta.pdf"
+    src="_data/figures/Schemes/Marta.pdf"
     frameBorder="0"
     scrolling="auto"
     height="33%"
@@ -38,12 +33,12 @@ Other robots, such as the Pioneer P3DX, which will not have cognitive algorithms
 <div> <p> (a) Scene 1: Marta in Table with objects </p> </div>
 
 <figure>
-  <img src="/data/figures/Marta/marta_comBratemberg_back.png" alt="(b)" style="width:30%">
+  <img src="_data/figures/Marta/marta_comBratemberg_back.png" alt="(b)" style="width:30%">
   <figcaption>(b) Scene 2: Marta in environment with Pioneer and blocks</figcaption>
 </figure>
 
 <figure>
-  <img src="/data/figures/Marta/marta_view.jpg" alt="(c)" style="width:30%">
+  <img src="_data/figures/Marta/marta_view.jpg" alt="(c)" style="width:30%">
   <figcaption>(c) Marta </figcaption>
 </figure>
 
@@ -64,7 +59,7 @@ The  mechanism for procedural learning based on neural networks implementation w
 To implement the CONAIM architecture, CONAIM classes will be adapted to perform *bottom-up* and *top-down* attention with the  mechanism for procedural learning, using CST and DL4J tools. The agent's attentional system receives stimuli related to the objectives of each experiment. These stimuli are submitted to the attentional system of CONAIM composed of *bottom-up* and *top-down* mechanisms. The classes that collect sensory data and the mechanisms that make up the attentional system of CONAIM will be implemented for the agent with cognitive tools of CST in language *Java*. 
 
 <iframe
-    src="data/figures/Schemes/plan_quali_phd.pdf"
+    src="_data/figures/Schemes/plan_quali_phd.pdf"
     frameBorder="0"
     scrolling="auto"
     height="100%"
@@ -76,7 +71,7 @@ To implement the CONAIM architecture, CONAIM classes will be adapted to perform 
 To implement the SOAR architecture, SOAR classes will be adapted to perform with [CST Bindings](https://github.com/CST-Group/cst-bindings). CST Bindings allows to use SOAR rules with Java classes. The classes that collect sensory data will be implemented for the agent with cognitive tools of CST in language *Java*. 
 
 <iframe
-    src="data/figures/Schemes/marta_soar.pdf"
+    src="_data/figures/Schemes/marta_soar.pdf"
     frameBorder="0"
     scrolling="auto"
     height="100%"
