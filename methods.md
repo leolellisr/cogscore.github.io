@@ -32,7 +32,7 @@ Other robots, such as the Pioneer P3DX, which will not have cognitive algorithms
  The Marta robot is equipped with an RGB-D camera and has a virtual actuator, named as "fovea". The environment is distributed with colored blocks and a Pioneer P3DX robot acts as a distractor. 
 
 <iframe
-    src="{{'_data/figures/Schemes/Marta.pdf' | relative_url }}"
+    src="{{'_data/figures/Marta/Marta.pdf' | relative_url }}"
     frameBorder="0"
     scrolling="auto"
     height="33%"
