@@ -12,7 +12,7 @@ Within the scope of this research, we will implement a learning strategy featuri
 To implement the architectures with a view to executing and evaluating the set of cognitive experiments (proposed by [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257)), we will use mobile humanoid robots. The implementations and ways of analyzing the results are based on the experiments proposed by [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257) for the acquisition of intelligent behaviors in artificial agents, the related literature [(Piaget, 1952)](https://doi.org/10.1037/11494-000) [Lungarella et al. (2007)](https://www.researchgate.net/publication/220233671_Developmental_robotics_A_survey), and adaptations derived from other projects of the work group [(Rossi, 2022)](http://hdl.handle.net/11449/214316) [(Rossi et. al., 2022)](https://doi.org/10.5753/wtdr_ctdr.2022.227371)[(Berto et. al., 2023)](https://doi.org/10.1016/j.cogsys.2023.101170). Humanoid robots will be used to perform the cognitive experiments and validate the architectures.
 
 <iframe
-    src="assets/figures/Plan_Marta_Chart-quali_stages.pdf"
+    src="{{'assets/figures/Plan_Marta_Chart-quali_stages.pdf' | relative_url }}"
     frameBorder="0"
     scrolling="auto"
     height="100%"
@@ -35,18 +35,18 @@ Other robots, such as the Pioneer P3DX, which will not have cognitive algorithms
     src="{{'assets/figures/Marta/Marta.pdf' | relative_url }}"
     frameBorder="0"
     scrolling="auto"
-    height="33%"
-    width="33%"
+    height="50%"
+    width="50%"
 ></iframe>
 <div> <p> (a) Scene 1: Marta in Table with objects </p> </div>
 
 <figure>
-  <img src="assets/figures/Marta/marta_comBratemberg_back.png" alt="(b)" style="width:30%">
+  <img src="{{'assets/figures/Marta/marta_comBratemberg_back.png' | relative_url }}" alt="(b)" style="width:50%">
   <figcaption>(b) Scene 2: Marta in environment with Pioneer and blocks</figcaption>
 </figure>
 
 <figure>
-  <img src="{{'assets/figures/Marta/marta_view.jpg' | relative_url }}" alt="(c)" style="width:30%">
+  <img src="{{'assets/figures/Marta/marta_view.jpg' | relative_url }}" alt="(c)" style="width:50%">
   <figcaption>(c) Marta </figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ The  mechanism for procedural learning based on neural networks implementation w
 To implement the CONAIM architecture, CONAIM classes will be adapted to perform *bottom-up* and *top-down* attention with the  mechanism for procedural learning, using CST and DL4J tools. The agent's attentional system receives stimuli related to the objectives of each experiment. These stimuli are submitted to the attentional system of CONAIM composed of *bottom-up* and *top-down* mechanisms. The classes that collect sensory data and the mechanisms that make up the attentional system of CONAIM will be implemented for the agent with cognitive tools of CST in language *Java*. 
 
 <iframe
-    src="assets/figures/Schemes/plan_quali_phd.pdf"
+    src="{{'assets/figures/Schemes/plan_quali_phd.pdf' | relative_url }}"
     frameBorder="0"
     scrolling="auto"
     height="100%"
@@ -79,7 +79,7 @@ To implement the CONAIM architecture, CONAIM classes will be adapted to perform 
 To implement the SOAR architecture, SOAR classes will be adapted to perform with [CST Bindings](https://github.com/CST-Group/cst-bindings). CST Bindings allows to use SOAR rules with Java classes. The classes that collect sensory data will be implemented for the agent with cognitive tools of CST in language *Java*. 
 
 <iframe
-    src="assets/figures/Schemes/marta_soar.pdf"
+    src="{{'assets/figures/Schemes/marta_soar.pdf' | relative_url }}"
     frameBorder="0"
     scrolling="auto"
     height="100%"
