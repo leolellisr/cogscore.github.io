@@ -46,7 +46,7 @@ Other robots, such as the Pioneer P3DX, which will not have cognitive algorithms
 </figure>
 
 <figure>
-  <img src="_data/figures/Marta/marta_view.jpg" alt="(c)" style="width:30%">
+  <img src="{{'_data/figures/Marta/marta_view.jpg' | relative_url }}" alt="(c)" style="width:30%">
   <figcaption>(c) Marta </figcaption>
 </figure>
 
