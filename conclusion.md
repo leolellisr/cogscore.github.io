@@ -18,7 +18,7 @@ For this preliminary experiments, we choose the [Marta humanoid robot](http://si
 Marta is seated in a small delimited space and a wide view of her surroundings. An arena was delimited outside this first space, and colored blocks (blue and green) were randomly distributed. The Pioneer P3DX, which will not have cognitive algorithms implemented, was used as a mobile distractor. Marta's goal is to track the Pioneer robot as it moves through the environment.
 
 <figure>
-  <img src="/data/figures/Marta/marta_comBratemberg_back.png" style="width:90%">
+  <img src="{{'assets//figures/Marta/marta_comBratemberg_back.png' | relative_url }}" alt="Scene2" style="width:80%">
   <figcaption>Scene: Marta in environment with Pioneer and blocks</figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ Marta is seated in a small delimited space and a wide view of her surroundings. 
 In the 1st and 2nd substages, Marta's action space has 10 actions, that can be performed to move its neck motors or a virtual actuator, called a fovea, which acts as the movement of the eyes. In the 3rd substage, Marta's action space has 15 actions, that can be performed to move its neck motors or a virtual actuator, called a fovea, which acts as the movement of the eyes, and use your attentional mechanism to direct your attention and make decisions. The observation space is an array of 256 elements, corresponding to the salience map acquired by the agent through the attentional system of the CONAIM model. 
 
 <figure>
-  <img src="/data/figures/Marta/Plan_Marta_Chart-Quali_Ações_Marta.pdf" style="width:90%">
+  <img src="{{'assets//figures/Marta/Plan_Marta_Chart-Quali_Ações_Marta.png' | relative_url }}" alt="Marta's action space" style="width:80%">
   <figcaption>Marta's action space. 1st and 2nd substages: AM0 - AM13; 3rd substage: AM0 - AA2.</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ ii) the robot falls over or exceeds the limits of its motorized actuators;
 iii) the robot has no saliences for several iterations. 
 
 <figure>
-  <img src="/data/figures/Marta/Plan_Marta_Chart-Quali_Recompensas.pdf" style="width:90%">
+  <img src="{{'assets//figures/Marta/Plan_Marta_Chart-Quali_Recompensas.png' | relative_url }}" alt="Marta's rewards" style="width:80%">
   <figcaption>Marta's rewards</figcaption>
 </figure>
 
@@ -63,12 +63,12 @@ In order to assess the effectiveness of our constructive agent, we compared its 
  In this substage, our computational implementation focuses on modeling the development of reflex reactions and the learning of cause-effect relationships in spatial and temporal contexts. The process establishes a connection between the sensory and motor systems, enabling procedural learning. Initially, the states and actions have low resolution, resembling the limited muscle control and visual acuity observed in young children. However, the resolution gradually increases through the learning algorithm. It is important to note that intentionality and motivation are not incorporated into the model.  
 
 <figure>
-  <img src="/data/figures/results/1st/Number of Actions Performed.pdf" style="width:45%">
+  <img src="{{'assets//figures/results/1st/Number of Actions Performed.png' | relative_url }}" alt="Marta's actions 1st" style="width:80%">
   <figcaption>(a) 1st substage - Actions performed with each experiment;</figcaption>
 </figure>
 
 <figure>
-  <img src="/data/figures/results/1st/Rewards" style="width:45%">
+  <img src="{{'assets//figures/results/1st/Rewards.png' | relative_url }}" alt="Marta's rewards 1st" style="width:80%">
   <figcaption>(b) 1st substage - Rewards adquired with each experiment.</figcaption>
 </figure>
 
@@ -82,12 +82,12 @@ Both agents were trained for 100 epochs in this substage, with a maximum of 500 
 This implementation presents a computational process aimed at modeling the development of primary circular reactions, which involves establishing connections between the sensory and motor systems in the current substage to facilitate procedural learning of spatio-temporal cause-effect relationships. As the learning process unfolds, it is anticipated that the reflex reactions initiated in the 1st substage will become more consistent in their outcomes. It is hypothesized that gradually adjusting the exploitation rate and exploration rate of the reinforcement learning algorithm could potentially enhance the expression of these behaviors.
 
 <figure>
-  <img src="/data/figures/results/2nd/Number of Actions Performed.pdf" style="width:45%">
+  <img src="{{'assets//figures/results/2nd/Number of Actions Performed.png' | relative_url }}" alt="Marta's actions" style="width:80%">
   <figcaption>(a) 2nd substage - Actions performed with each experiment;</figcaption>
 </figure>
 
 <figure>
-  <img src="/data/figures/results/2nd/Rewards" style="width:45%">
+  <img src="{{'assets//figures/results/2nd/Rewards.png' | relative_url }}" alt="Marta's rewards" style="width:80%">
   <figcaption>(b) 2nd substage - Rewards adquired with each experiment.</figcaption>
 </figure>
 
@@ -103,12 +103,12 @@ Comparing the constructive agent to the DQN-RBF agent and the Tabular agent in t
 This implementation introduces a computational process aimed at modeling the development of secondary circular reactions, where the agent acquires intentionality to perform actions and deliberately selects them to achieve specific goals. A top-down attention mechanism is employed in this phase to facilitate intentional behavior. The agent's intentionality is simulated by establishing explicit objectives, which redirect the robot's focus externally and enable purposeful actions.
 
 <figure>
-  <img src="/data/figures/results/3rd/Number of Actions Performed.pdf" style="width:45%">
+  <img src="{{'assets//figures/results/3rd/Number of Actions Performed.pdf" style="width:45%">
   <figcaption>(a) 3rd substage - Actions performed with each experiment;</figcaption>
 </figure>
 
 <figure>
-  <img src="/data/figures/results/3rd/Rewards" style="width:45%">
+  <img src="{{'assets//figures/results/3rd/Rewards" style="width:45%">
   <figcaption>(b) 3rd substage - Rewards adquired with each experiment.</figcaption>
 </figure>
 
