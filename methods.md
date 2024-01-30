@@ -15,8 +15,12 @@ To implement the architectures with a view to executing and evaluating the set o
     src="{{'assets/figures/Plan_Marta_Chart-quali_stages.pdf' | relative_url }}"
     frameBorder="0"
     scrolling="auto"
-    height="100%"
-    width="100%"
+    width="95vw"
+    height="auto" 
+    style="
+    width:calc(95vw - 18px)!important;
+    height:auto;
+    aspect-ratio:8.5/11; "
 ></iframe>
 
 ## Materials
@@ -35,8 +39,12 @@ Other robots, such as the Pioneer P3DX, which will not have cognitive algorithms
     src="{{'assets/figures/Marta/Marta.pdf' | relative_url }}"
     frameBorder="0"
     scrolling="auto"
-    height="50%"
-    width="50%"
+    width="95vw"
+    height="auto" 
+    style="
+    width:calc(95vw - 18px)!important;
+    height:auto;
+    aspect-ratio:8.5/11; "
 ></iframe>
 <div> <p> (a) Scene 1: Marta in Table with objects </p> </div>
 
@@ -70,8 +78,12 @@ To implement the CONAIM architecture, CONAIM classes will be adapted to perform 
     src="{{'assets/figures/Schemes/plan_quali_phd.pdf' | relative_url }}"
     frameBorder="0"
     scrolling="auto"
-    height="100%"
-    width="100%"
+    width="95vw"
+    height="auto" 
+    style="
+    width:calc(95vw - 18px)!important;
+    height:auto;
+    aspect-ratio:8.5/11; "
 ></iframe>
 
 ## SOAR Implementation Scheme
@@ -82,8 +94,12 @@ To implement the SOAR architecture, SOAR classes will be adapted to perform with
     src="{{'assets/figures/Schemes/marta_soar.pdf' | relative_url }}"
     frameBorder="0"
     scrolling="auto"
-    height="100%"
-    width="100%"
+    width="95vw"
+    height="auto" 
+    style="
+    width:calc(95vw - 18px)!important;
+    height:auto;
+    aspect-ratio:8.5/11; "
 ></iframe>
 
 
