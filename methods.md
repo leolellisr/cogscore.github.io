@@ -20,7 +20,7 @@ To implement the architectures with a view to executing and evaluating the set o
     style="
     width:calc(95vw - 18px)!important;
     height:auto;
-    aspect-ratio:4/3; "
+    aspect-ratio:9/16; "
 ></iframe>
 
 ## Materials
