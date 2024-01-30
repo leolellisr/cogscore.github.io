@@ -103,7 +103,7 @@ This section presents the schedule for the implementation of this research proje
 
 **(*Done*) A1. Literature Review:** Continuous process of literature verification, base bibliographies and new related works. Works from the implementation areas (devRobotics, Deep Learning, Cognitive Architectures) and works from human psychology will be analyzed, in order to adapt new cognitive abilities in the used robots.
 
-**(*Done*) A2. Constructive Learning Mechanism Modeling:** We developed a constructive learning mechanism (described in Section \ref{sb:marta}). This mechanism will be extended to agregate new adaptive methods. The constructive learning mechanism will be modeled to fulfill all the needs of humanoid agents.
+**(*Done*) A2. Constructive Learning Mechanism Modeling:** We developed a constructive learning mechanism. This mechanism will be extended to agregate new adaptive methods. The constructive learning mechanism will be modeled to fulfill all the needs of humanoid agents.
 
 **(*In progress*) A3. System Implementation:** The cognitive systems will be implemented with cognitive modules of CST.
 
