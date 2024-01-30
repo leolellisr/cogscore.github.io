@@ -19,8 +19,7 @@ To implement the architectures with a view to executing and evaluating the set o
     height="auto" 
     style="
     width:calc(95vw - 18px)!important;
-    height:auto;
-    aspect-ratio:8.5/11; "
+    height:auto"
 ></iframe>
 
 ## Materials
@@ -43,8 +42,7 @@ Other robots, such as the Pioneer P3DX, which will not have cognitive algorithms
     height="auto" 
     style="
     width:calc(95vw - 18px)!important;
-    height:auto;
-    aspect-ratio:8.5/11; "
+    height:auto "
 ></iframe>
 <div> <p> (a) Scene 1: Marta in Table with objects </p> </div>
 
@@ -82,8 +80,7 @@ To implement the CONAIM architecture, CONAIM classes will be adapted to perform 
     height="auto" 
     style="
     width:calc(95vw - 18px)!important;
-    height:auto;
-    aspect-ratio:8.5/11; "
+    height:auto "
 ></iframe>
 
 ## SOAR Implementation Scheme
@@ -98,8 +95,7 @@ To implement the SOAR architecture, SOAR classes will be adapted to perform with
     height="auto" 
     style="
     width:calc(95vw - 18px)!important;
-    height:auto;
-    aspect-ratio:8.5/11; "
+    height:auto "
 ></iframe>
 
 
