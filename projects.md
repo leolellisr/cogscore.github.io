@@ -10,7 +10,7 @@ In order to further advance the reinforcement learning area, the scholarly commu
 
 
 <figure>
-  <img src="{{'assets/figures/openaigym.jpg' | relative_url }}" alt="[OpenAI Gym](https://github.com/openai/gym)" style="width:100%">
+  <img src="{{'assets/figures/openaigym.jpg' | relative_url }}" alt="[OpenAI Gym](https://github.com/openai/gym)" style="width:70%">
 </figure>
 
 [OpenAI Gym](https://github.com/openai/gym) encompasses a collection of Environments (Partially Observable Markov Decision Processes - POMDPs) that will expand over time.  [OpenAI Gym](https://github.com/openai/gym) specifically concentrates on the episodic framework within reinforcement learning, wherein the agent's experiences are segmented into a sequence of episodes. In each episode, the initial state of the agent is randomly drawn from a distribution, and interaction proceeds until the environment reaches a terminal state. The primary objective in episodic reinforcement learning involves maximizing the expected total reward per episode while striving for optimal performance within a minimal number of episodes.
