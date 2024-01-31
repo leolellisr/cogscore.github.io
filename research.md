@@ -9,21 +9,46 @@ subtitle:
 
 Developmental Robotics, also known as epigenetic robotics or "devRobotics," is a multidisciplinary field that combines theories from developmental psychology, neuroscience, biology, and linguistics to create adaptable robots capable of navigating complex and unpredictable environments [(Lungarella et. al., 2007)](https://doi.org/10.1080/09540090310001655110). It utilizes formalized and extended versions of these theories to develop control architectures for robots.
 
+<figure>
+  <img src="{{'assets/img/devR.png' | relative_url }}" style="width:80%">
+</figure>
+
+
 The emergence of Developmental Robotics stems from the demand for robots that can perform tasks requiring human-level intelligence in challenging environments by adapting and evolving their behavior. Models and experiments in this field draw inspiration from the principles and mechanisms observed in early human development, notably in Piaget's experiments, where robots exhibit cognitive abilities similar to those seen in children [(Piaget, 1952)](https://doi.org/10.1037/11494-000). Piaget's work emphasizes the incremental nature of human cognitive development [(Cangelosi & Schlesinger, 2014)](https://mitpress.mit.edu/books/developmental-robotics).
 
 
 ### Piaget's Theory
 Developmental Robotics draws inspiration from the influential theories of Jean Piaget, a Swiss psychologist known for his theory of genetic epistemology, which explores the relationship between human biological and cognitive processes, and the development of complex behaviors [(Piaget, 1952)](https://doi.org/10.1037/11494-000). Central to Piaget's theory are schemas, which are mental structures that aid in the interpretation of concepts and understanding of the environment. As cognitive processes become more sophisticated, new schemas emerge, leading to more complex and adaptive behavior in response to the environment [(Piaget, 1952)](https://doi.org/10.1037/11494-000).
 
+<figure>
+  <img src="{{'assets/img/piaget1.png' | relative_url }}" style="width:80%">
+</figure>
+
+
 According to Piaget, **adaptation** or **learning** involves the adjustment of cognitive structures to the environment through the processes of **assimilation** and **accommodation** [(Cook & Cook, 2005)](https://psycnet.apa.org/record/2004-19883-000). **Assimilation** involves using existing mental structures to interpret experiences and make decisions, while **accommodation** adjusts existing schemas in response to new information [(Piaget, 1952)](https://doi.org/10.1037/11494-000). These processes are complementary and occur simultaneously, enabling individuals to effectively handle new situations by modifying existing structures or creating new ones [(Piaget, 1952)](https://doi.org/10.1037/11494-000).
 
+<figure>
+  <img src="{{'assets/img/piaget2.png' | relative_url }}" style="width:80%">
+</figure>
+
+
 Piaget identified circular reactions as a result of assimilation, which involve repetitive cycles of actions that have been acquired or are in the process of acquisition [(Piaget, 1952)](https://doi.org/10.1037/11494-000). Circular reactions occur when individuals rediscover or repeat actions that lead to satisfying outcomes, allowing them to reproduce desired results that were initially discovered by chance. Piaget distinguished three types of circular reactions: primary, secondary, and tertiary [(Piaget, 1952)](https://doi.org/10.1037/11494-000).
+
+<figure>
+  <img src="{{'assets/img/piaget3.png' | relative_url }}" style="width:80%">
+</figure>
+
 
 In the **primary circular reactions**, behaviors stem from reflexes and involve the coordination of sensory and motor activities, contributing to the development of new schemas [(Piaget, 1952)](https://doi.org/10.1037/11494-000). 
 **Secondary circular reactions** emerge as purposeful behaviors directed towards external results rather than the baby's body [(Piaget, 1952)](https://doi.org/10.1037/11494-000). 
 **Tertiary circular reactions** represent an extension of the secondary circular reactions and involve the exploration of new experiences through trial and error, as individuals attempt to absorb new information in familiar situations [(Piaget, 1952)](https://doi.org/10.1037/11494-000).
 
 Piaget's analysis of cognitive development in children led to the identification of four distinct stages: the sensorimotor stage, preoperational stage, concrete operational stage, and formal operational stage [(Piaget, 1952)](https://doi.org/10.1037/11494-000). During these stages, Piaget observed children's abilities to manipulate objects, their curiosity, and their exploration of sensory stimuli, such as light and sound. 
+
+<figure>
+  <img src="{{'assets/img/piaget4.png' | relative_url }}" style="width:80%">
+</figure>
+
 
 The **sensorimotor stage**, lasting from birth to around two years of age, involves the coordination of sensations and motor behaviors as infants perceive and act upon the world [(Piaget, 1952)](https://doi.org/10.1037/11494-000). Mental functions during this stage are primarily based on innate reflexes and instinctual tendencies, gradually evolving to more refined skills and a developing understanding of reality [(Wood et. al., 2011)](https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2011/07/psych406-5.3.2.pdf). Piaget described the sensorimotor stage in six substages: use of reflexes, primary circular reactions, secondary circular reactions, coordination of secondary schemas, tertiary circular reactions, and mental combinations [(Piaget, 1952)](https://doi.org/10.1037/11494-000).
 
@@ -36,6 +61,11 @@ Drawing inspiration from Piaget's work in cognitive development, this project se
 ### Berto's Cognitive Experiments
 
 In order to establish standardized approaches for investigating the evolution of learning mechanisms in robots within the field of developmental robotics, [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257) and [(Berto et. al., 2023)](https://doi.org/10.1016/j.cogsys.2023.101170) conducted studies on cognitive functions to identify the necessary components for validating cognitive architectures in this context. Drawing on Piaget's research on the sensorimotor period [(Piaget, 1952)](https://doi.org/10.1037/11494-000), the [Bayley Child Development Scale](https://doi.org/10.1007/978-0-387-79061-9_295), literature describing evaluation scenarios for infant learning development, and the parameters and levels of the [ConsScale](https://www.conscious-robots.com/consscale/index.html), [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257) and [(Berto et. al., 2023)](https://doi.org/10.1016/j.cogsys.2023.101170) proposed computational approaches to incorporate human behavior into robots and analyze artificial cognitive development. The experiments were classified based on the specific skills intended for the agent's learning.
+
+<figure>
+  <img src="{{'assets/img/berto.png' | relative_url }}" style="width:80%">
+</figure>
+
 
 To bridge Piaget's theory with cognitive models and structures, [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257) and [(Berto et. al., 2023)](https://doi.org/10.1016/j.cogsys.2023.101170) introduced an analogy to Piaget's schemas within the framework of sensorimotor stage development [(Piaget, 1952)](https://doi.org/10.1037/11494-000). [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257) utilized the concept of "cognit" to model memory processing elements, incorporating an evaluation level. The concept of "cognits" captures the following characteristics within Piaget's sensorimotor stage:
 
@@ -62,15 +92,27 @@ Berto's classification of experiments based on specific skills intended for the 
 
 The cognitive revolution [(Harari, 2011)](https://edisciplinas.usp.br/pluginfile.php/4899892/mod_resource/content/2/Sapiens%20Uma%20Breve%20História%20da%20Humanidade.pdf) has spurred computational investigations into various aspects of human mental processes, resulting in the development of cognitive architectures and structures. These frameworks aim to facilitate the study of the human mind, encompassing not only its behavioral aspects but also the underlying cognitive processes that shape and influence behavior [(Harris, 2006)](https://onlinelibrary.wiley.com/doi/10.1002/0470018860.s00559). Over the past few decades, several standard cognitive models have been proposed, employing different methods and approaches to achieve functionality and implementation [(Simões et. al., 2017)](https://doi.org/10.1109/JSYST.2015.2498542).
 
+<figure>
+  <img src="{{'assets/img/cogarc.png' | relative_url }}" style="width:80%">
+</figure>
+
 
 [(Kotseruba et al, 2020)](http://jtl.lassonde.yorku.ca/project/cognitive_architectures_survey/bib_html/index.html) describe cognitive architectures as systems capable of reasoning across various domains, incorporating multiple perspectives, adapting to new circumstances, and possessing introspective abilities. The authors note that the term "cognitive architecture" is not limited to specific graphical or algorithmic proposals, but rather encompasses a range of approaches that manipulate these representations. [(Paraense et. al., 2016)](https://dx.doi.org/10.1016/j.bica.2016.07.005) define cognitive architectures as general-purpose control systems based on scientific theories of cognition in humans and animals. These architectures comprise a combination of modules responsible for implementing various cognitive functions such as perception, attention, memory, thinking, and learning.
 
 [(Vernon, 2016)](https://doi.org/10.1016/j.bica.2016.10.004) defines a cognitive architecture as a computational model that represents cognition by explicitly specifying the set of processes and underlying assumptions upon which the model is based. These assumptions can be derived from biological or psychological sources, philosophical arguments, or working hypotheses in various disciplines such as neurophysiology, psychology, or artificial intelligence. According to [(Laird, 2008)](https://www.researchgate.net/publication/221328941_Extending_the_Soar_Cognitive_Architecture), a cognitive architecture consists of processing units that represent, extract, select, and integrate knowledge, along with memory stores that preserve this knowledge. [(Sun, 2004)](https://doi.org/10.1080/0951508042000286721) characterizes cognitive architectures as essential structures and processes that encompass a broad scope of cognition and behavior across multiple levels and domains. [(Thomson et. al., 2014)](https://www.researchgate.net/publication/268520256_Extending_the_Influence_of_Contextual_Information_in_ACT-R_using_Buffer_Decay) describes cognitive architectures as systems composed of several modules or components working together to produce behavior. These modules encompass knowledge representations, memory systems for content storage, and processes for acquiring and utilizing knowledge.
 
+<figure>
+  <img src="{{'assets/img/cogarc.jpg' | relative_url }}" style="width:80%">
+</figure>
+
 These advancements in cognitive architectures contribute to the exploration of complex cognitive processes in robots and pave the way for the development of intelligent and adaptive robotic systems. In this project, we aim to develop a systematic framework for the evaluation of cognitive architectures, offering seamless integration with existing models like SOAR, CONAIM, and more. Our system will be designed to learn iteratively from the environment, mimicking the incremental nature of human learning. By integrating elements from the human cognitive system, our approach aimed to achieve machine consciousness and provide insights into reinforcement learning and the acquire of sensorimotor and procedural knowledge.
 
 ### CONAIM
 The CONAIM model (Conscious Attention-Based Integrated Model) [(Simões et. al., 2017)](https://doi.org/10.1109/JSYST.2015.2498542) draws inspiration from the attentional architecture proposed by [(Colombini, 2017)](https://dx.doi.org/10.1109/JSYST.2015.2499304), with a specific focus on replacing the attentional controller. This model aims to endow an attention-based agent with awareness and the ability to compute over the saliency map, resulting in a significant reduction in the dimensionality of the model's input space. The CONAIM model consists of two main systems: an attentional system and a cognitive system.
+
+<figure>
+  <img src="{{'assets/img/CONAIM.JPG' | relative_url }}" style="width:80%">
+</figure>
 
 The attentional system, as proposed by [(Simões et. al., 2017)](https://doi.org/10.1109/JSYST.2015.2498542), builds upon the selection for perception model introduced by [(Colombini, 2017)](https://dx.doi.org/10.1109/JSYST.2015.2499304). This architecture incorporates various elements from related works and is capable of handling multiple sensory systems, employing multiple processes for feature extraction, decision-making, and learning support [(Colombini, 2017)](https://dx.doi.org/10.1109/JSYST.2015.2499304).
 
@@ -79,6 +121,10 @@ The cognitive system, also presented by [(Simões et. al., 2017)](https://doi.or
 Additionally, a set of processes operate in parallel and synchronize with the modules to perform actions on the elements of the cognitive system. The CONAIM model operates under the paradigm that any function or process within the cognitive system can request information from any other module and/or modify the agent's internal states at any given time. Consequently, the flow of information through the decision-making module is not obligatory [(Simões et. al., 2017)](https://doi.org/10.1109/JSYST.2015.2498542).
 
 In our project, we aim to employ the CONAIM model (Conscious Attention-Based Integrated Model) in our framework.  By building upon the CONAIM model and incorporating neural network-based learning, our research aimed to address challenges in reinforcement learning and the acquire of sensorimotor and procedural knowledge. Through this research, we sought to provide insights into achieving machine consciousness in complex environments while overcoming limitations in existing tools and techniques for implementing cognitive architectures.
+
+<figure>
+  <img src="{{'assets/img/plan_quali_phd.png' | relative_url }}" style="width:80%">
+</figure>
 
 ### SOAR
 The SOAR architecture is a cognitive architecture designed to simulate human intelligence and problem-solving processes [(Laird, 2008)](https://www.researchgate.net/publication/221328941_Extending_the_Soar_Cognitive_Architecture). In our project, we also aim to employ the SOAR model in our framework.  
@@ -92,6 +138,10 @@ In our project, we also aim to employ the SOAR model (State, Operator, And Resul
 ### CST
 The Cognitive Systems Toolkit (CST) [(Paraense et. al., 2016)](https://dx.doi.org/10.1016/j.bica.2016.07.005) is a Java-based toolkit designed for constructing cognitive architectures. 
 At its core, the CST comprises a collection of fundamental concepts that can be employed in a generalized manner to build any cognitive architecture [(Paraense et. al., 2016)](https://dx.doi.org/10.1016/j.bica.2016.07.005). Its cognitive functions are represented as classes that can be combined into a parallel set of interaction devices, enabling the creation of multi-agent systems with asynchronous and parallel execution capabilities.
+
+<figure>
+  <img src="{{'assets/img/CST.PNG' | relative_url }}" style="width:80%">
+</figure>
 
 The CST framework revolves around the concept of codelets, which are small pieces of code implemented as asynchronous functions. These codelets execute in parallel, performing simple and well-defined tasks [(Paraense et. al., 2016)](https://dx.doi.org/10.1016/j.bica.2016.07.005). They represent the major cognitive functions of the system and operate in a constant and cyclical manner, driving the system's behaviors. 
 They are organized into groups, where each group corresponds to a cognitive model of a specific cognitive function [(Paraense et. al., 2016)](https://dx.doi.org/10.1016/j.bica.2016.07.005). The CST toolkit provides default implementations for some of these codelet groups.
