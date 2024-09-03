@@ -1,3 +1,19 @@
+- date: 2024-08-27
+  type: conference
+  status: published
+  authors: Leonardo L. Rossi,  Letícia Berto, Paula D. P. Costa, Ricardo Gudwin, Alexandre Simões and Esther Colombini 
+  title: "Drives and Impulses: Shaping Motivation and Procedural Learning for Humanoid Robots"
+  journal: 2024 IEEE International Conference on Development and Learning (ICDL)
+  doi: 10.1109/ICDL61372.2024.10645017
+  
+- date: 2024-02-23
+  type: journal
+  status: published
+  authors: Leonardo Rossi, Eric Rohmer, Paula Costa, Ricardo Gudwin, Alexandre Simões and Esther Colombini
+  title: "A Procedural Constructive Learning Mechanism with Deep Reinforcement Learning for Cognitive Agents"
+  journal: JINT Journal of Intelligent & Robotic Systems
+  doi: 10.1007/s10846-024-02064-9
+  
 - date: 2023-09-18
   type: journal
   status: published
