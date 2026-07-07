@@ -18,6 +18,7 @@ navbar-links:
   Literature Review: "research"
   Related Work: "projects"
   Project Details and Methodology: "methods"
+  Playground: "http://192.168.1.121:8501"
   Conclusion and Partial Results: "conclusion"
   Contact: "contact"
 
